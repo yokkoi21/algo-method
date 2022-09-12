@@ -12,7 +12,7 @@ func main() {
 	fmt.Scan(&S)
 	fmt.Scan(&T)
 
-	if strings.Index(S, T) != -1 {
+	if strings.Contains(S, T) {
 		fmt.Println("Yes")
 	} else {
 		fmt.Println("No")
