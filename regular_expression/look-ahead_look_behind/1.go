@@ -16,5 +16,4 @@ func main() {
 		S = r.ReplaceAllString(S, "rar")
 	}
 	fmt.Println(S)
-
 }
